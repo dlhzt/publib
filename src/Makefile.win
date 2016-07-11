@@ -1,0 +1,12 @@
+CPPCOMPILE = g++
+OPTIONS		= -g -Wall -D_REENTRANT
+COMPILEOPTION = $(OPTIONS) -c 
+INCLUDEDIR = 
+LINK = g++
+LINKOPTION = $(OPTIONS) -o 
+LIBDIRS = 
+
+WIN32_OBJS = service.o
+UNIX_OBJS =
+
+include common.mk
